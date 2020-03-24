@@ -1,0 +1,33 @@
+ if video presences on page.homepage 
+   if  video is in some videos and cursor is moved to element(video )
+     play some video(time playing=5 seconds,void=mute,window_size=small)
+     if cursor is clicked (some video ) 
+        play some video(time playing=full time,void=mute,window_size=big)
+   if video is in recommended video and cursor is moved to element(video)
+     play recommended video(time playing=5 seconds,void=mute,window_size=small)
+     if cursor is clicked (recommended video ) 
+        play recommended video (time playing=full time,void=mute,window_size=big)
+   if video is in advertising videos
+     play advertising video(time playing=full time,void=mute,window_size=small)
+     if curse is clicked (advertising video ) 
+        play advertising video (time playing=full time,void=mute,window_size=big)
+if userlogin==true
+ if video presences on page.trends
+   if  video is in trends videos and cursor is moved to element(video )
+     play trends video(time playing=5 seconds,void=mute,window_size=small)
+     if cursor is clicked (trends video ) 
+        play trends video(time playing=full time,void=mute,window_size=big)
+
+ if video presences on page.liked
+   if  video is in liked videos and cursor is moved to element(video )
+     play liked video(time playing=5 seconds,void=mute,window_size=small)
+     if cursor is clicked liked video ) 
+        play liked video(time playing=full time,void=mute,window_size=big)
+
+ if video presences on page.subscript.channels
+   if  video is in subscript.channels videos and cursor is moved to element(video )
+     play subscript.channels video(time playing=5 seconds,void=mute,window_size=small)
+     if cursor is clicked (subscript.channels video ) 
+        play subscript.channels video(time playing=full time,void=mute,window_size=big)
+
+   

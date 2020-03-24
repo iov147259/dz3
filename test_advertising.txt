@@ -1,0 +1,22 @@
+if video is paying (video)
+  if my subscript==premium
+     play video(time playing=full time,void=on,window_size=big)
+  else ( play advertising video (time playing=full time,void=on,window_size=big) and 
+if cursor is clicked(link.advertiser)
+ open page(advertiser)
+        )
+          if full time. video >10 min 
+              play  video(time playing= first haf-full time,void=on,window_size=big)
+              play advertising video (time playing=full time,void=on,window_size=big)
+              if cursor is clicked(link.advertiser)
+ open page(advertiser)
+              play video(time playing=second haf-full time,void=on,window_size=big)
+          else  play  video(time playing= full time,void=on,window_size=big) 
+
+if advertising video presences on page 
+ play [when this page opens] advertising video(time playing=full time,void=mute,window_size=small)
+  if cursor is clicked(link.advertiser)
+ open page(advertiser)
+if advertising  presences on page 
+  if cursor is clicked(link.advertiser)
+ open page(advertiser)

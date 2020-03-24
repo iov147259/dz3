@@ -1,0 +1,60 @@
+if cursor is clicked(button.account)
+ if userlogin==true
+   if cursor  is clicked(button.my channel)
+     open page(my channel)
+{ show(button.add videos)
+  show(button.youtube studio)
+  if cursor is clicked (button.youtube studio)
+    open page(youtube studio) {
+ show(information about statistic of channel )
+  show(button.add videos)
+  show(button.channel menu)
+  if cursor is clicked (button.channel menu)
+    show(button.monetization)
+    show(button.playlists)
+    show(button.my channel)
+    show(buuton.my videos)
+    if cusor is cicked (button.monetization)
+     open page(monetization){
+      if (information about static of channel)!=(allowabel value to star monetization)
+        show("monetization is not yet availableto you")
+      else show (manetization settings )
+                             } 
+    if cursor is clicked(button.playlists)
+      open page(playlists)
+    if cursor is clicked(button.my channel)
+       open page(my channel) 
+    if cursor is clicked (button.my videos)
+       open page(my videos)
+                               }
+}
+   if cursor is clicked (button.subscript)
+     open page(subscript)
+{ if my subscript !=music 
+    show (button.about music)
+    show (information about music subscript )
+    if cursor is clicked (button.about music)
+     open page (music)
+  else show (information about my subscript music )
+  if my subscript !=premium
+    show (button.about premium)
+    show (information about premium subscript) 
+    if cursor is clicked (button.about premium)
+     open page (subscript)
+  else  show information about my subscript premium 
+}
+    
+ if cursor is clicked (button.change account ) 
+   show( button.exit)
+   show (button.add account)
+   if cursor is clicked(button.exit)
+     userlogin=false
+     open page(homepage)
+   if cusor is clicked(butt.add account)
+     open page(google sign in )
+     
+ 
+ 
+ 
+
+  
